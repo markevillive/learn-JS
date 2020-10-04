@@ -24,3 +24,25 @@ document.write('<h2>Hello, JavaScript!</h2>');
 в браузере добавлялся заголовок второго уровня "Hello, JavaScript!
 "
 ## Comments
+Комментарии бывают строчные (в одну строку - можно после строки с кодом) и блочные. Примеры комментариев:
+
+- Строный
+
+```javascript
+// String comment
+<script type="text/javascript">
+    alert('Hello, Wodld!'); //string comment
+</script>
+```
+- Блочный
+```javascript
+<script type="text/javascript">
+    alert('Hello, Wodld!'); 
+/*
+*Вывод фразы "Hello, Wodld!"
+* в модальное окно
+*/
+</script>
+
+```
+## Тег noscript
