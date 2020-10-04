@@ -46,3 +46,10 @@ document.write('<h2>Hello, JavaScript!</h2>');
 
 ```
 ## Тег noscript
+Тег noscript выводит сообщение для пользователей, у которых JavaScript отключен в настройках:
+
+```javascript
+<noscript>
+    К сожалению, у вас отключен JavaScript.
+</noscript>
+```
